@@ -22,7 +22,7 @@ public class SaperGraphics {
 		URL url;
 		for(int i = 0; i < 9; i++) {
 			url = SaperGraphics.class.getResource("/res/" + i + ".png");
-			fieldContent[i] = (new ImageIcon(url)).getImage();
+			fieldContent[i] = new ImageIcon(url).getImage();
 		}
 		url = SaperGraphics.class.getResource("/res/flag.png");
 		flag = new ImageIcon(url).getImage();
