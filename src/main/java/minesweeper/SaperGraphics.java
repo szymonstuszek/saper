@@ -21,18 +21,18 @@ public class SaperGraphics {
 		fieldContent = new Image[9];
 		URL url;
 		for(int i = 0; i < 9; i++) {
-			url = SaperGraphics.class.getResource("/res/" + i + ".png");
+			url = SaperGraphics.class.getResource("/" + i + ".png");
 			fieldContent[i] = new ImageIcon(url).getImage();
 		}
-		url = SaperGraphics.class.getResource("/res/flag.png");
+		url = SaperGraphics.class.getResource("/flag.png");
 		flag = new ImageIcon(url).getImage();
-		url = SaperGraphics.class.getResource("/res/wrong.png");
+		url = SaperGraphics.class.getResource("/wrong.png");
 		wrong = new ImageIcon(url).getImage();
-		url = SaperGraphics.class.getResource("/res/cover.png");
+		url = SaperGraphics.class.getResource("/cover.png");
 		cover = new ImageIcon(url).getImage();
-		url = SaperGraphics.class.getResource("/res/hint.png");					
+		url = SaperGraphics.class.getResource("/hint.png");
 		hint = new ImageIcon(url).getImage();
-		url = SaperGraphics.class.getResource("/res/mine.png");
+		url = SaperGraphics.class.getResource("/mine.png");
 		mine = new ImageIcon(url).getImage();
 		
 	}
