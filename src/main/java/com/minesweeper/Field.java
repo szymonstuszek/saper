@@ -1,4 +1,4 @@
-package minesweeper;
+package com.minesweeper;
 
 public class Field {
 	private boolean hasFlag;

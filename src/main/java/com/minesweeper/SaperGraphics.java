@@ -1,4 +1,4 @@
-package minesweeper;
+package com.minesweeper;
 
 import java.awt.Image;
 import java.net.URL;

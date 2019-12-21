@@ -1,4 +1,4 @@
-package minesweeper;
+package com.minesweeper;
 
 public class Commons {
 	public static final int FIELD_SIZE = 20;

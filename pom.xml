@@ -25,7 +25,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.invaders.Main</mainClass>
+                            <mainClass>com.minesweeper.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
